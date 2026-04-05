@@ -279,8 +279,7 @@
       "/music/djradio/:id/:info?": {
         "path": "/music/djradio/:id/:info?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/163/music/djradio/347317067",
         "parameters": {
@@ -949,8 +948,7 @@
         },
         "description": "::: tip\n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 标签。将 `公告` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告`](https://rsshub.app/10jqka/realtimenews/公告)。\n  \n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 和 `A股` 标签。将 `公告,A股` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告,A股`](https://rsshub.app/10jqka/realtimenews/公告,A股)。\n:::\n\n| 全部 | 重要 | A股 | 港股 | 美股 | 机会 | 异动 | 公告 |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    ",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "features": {
           "requireConfig": false,
@@ -3072,8 +3070,7 @@
       "/:category/:subCategory?/:keyword?": {
         "path": "/:category/:subCategory?/:keyword?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/36kr/newsflashes",
         "parameters": {
@@ -6844,8 +6841,7 @@
         "example": "/aibase/news",
         "description": "获取 AI 资讯列表",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "features": {
           "requireConfig": false,
@@ -7727,8 +7723,7 @@
       "/news": {
         "path": "/news",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "example": "/ainvest/news",
         "parameters": {},
@@ -7904,8 +7899,7 @@
       "/column/:id": {
         "path": "/column/:id",
         "categories": [
-          "reading",
-          "popular"
+          "reading"
         ],
         "example": "/aisixiang/column/722",
         "parameters": {
@@ -10051,8 +10045,7 @@
       "/apps/update/:country/:id/:platform?": {
         "path": "/apps/update/:country/:id/:platform?",
         "categories": [
-          "program-update",
-          "popular"
+          "program-update"
         ],
         "view": 5,
         "example": "/apple/apps/update/us/id408709785",
@@ -13267,8 +13260,7 @@
           "channel": "channel, default to `top stories`"
         },
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "description": "Provides a better reading experience (full text articles) over the official ones.\n\n    Support major channels, refer to [BBC RSS feeds](https://www.bbc.co.uk/news/10628494). Eg, `business` for `https://feeds.bbci.co.uk/news/business/rss.xml`.\n\n    -   Channel contains sub-directories, such as `https://feeds.bbci.co.uk/news/world/asia/rss.xml`, replace `/` with `-`, `/bbc/world-asia`.",
         "location": "index.ts",
@@ -13411,8 +13403,7 @@
       "/:user/:type?": {
         "path": "/:user/:type?",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/behance/mishapetrick",
@@ -23745,8 +23736,7 @@
       "/telegraph/:category?": {
         "path": "/telegraph/:category?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "example": "/cls/telegraph",
         "parameters": {
@@ -24450,8 +24440,7 @@
       "/weekly": {
         "path": "/weekly",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/cngal/weekly",
@@ -26571,8 +26560,7 @@
       "/blog/:user": {
         "path": "/blog/:user",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/csdn/blog/csdngeeknews",
         "parameters": {
@@ -29108,8 +29096,7 @@
       "/blog": {
         "path": "/blog",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/deepmind/blog",
         "parameters": {},
@@ -31395,8 +31382,7 @@
       "/list/:type?/:routeParams?": {
         "path": "/list/:type?/:routeParams?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/douban/list/subject_real_time_hotest",
         "parameters": {
@@ -33260,8 +33246,7 @@
       "/espresso": {
         "path": "/espresso",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/economist/espresso",
@@ -37980,8 +37965,7 @@
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
@@ -39082,8 +39066,7 @@
         },
         "description": "::: tip\n  若订阅 [综合报道](https://www.geekpark.net/column/179)，网址为 `https://www.geekpark.net/column/179`。截取 `https://www.geekpark.net/column/` 到末尾的部分 `179` 作为参数填入，此时路由为 [`/geekpark/179`](https://rsshub.app/geekpark/179)。\n:::\n\n| 栏目                                                         | ID                                     |\n| ------------------------------------------------------------ | -------------------------------------- |\n| [综合报道](https://www.geekpark.net/column/179)              | [179](https://rsshub.app/geekpark/179) |\n| [AI新浪潮观察](https://www.geekpark.net/column/304)          | [304](https://rsshub.app/geekpark/304) |\n| [新造车观察](https://www.geekpark.net/column/305)            | [305](https://rsshub.app/geekpark/305) |\n| [财报解读](https://www.geekpark.net/column/271)              | [271](https://rsshub.app/geekpark/271) |\n| [底稿对话CEO系列](https://www.geekpark.net/column/308)       | [308](https://rsshub.app/geekpark/308) |\n| [Geek Insight 特稿系列](https://www.geekpark.net/column/306) | [306](https://rsshub.app/geekpark/306) |\n| [心科技](https://www.geekpark.net/column/307)                | [307](https://rsshub.app/geekpark/307) |\n| [行业资讯](https://www.geekpark.net/column/2)                | [2](https://rsshub.app/geekpark/2)     |\n  ",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "features": {
           "requireConfig": false,
@@ -39287,8 +39270,7 @@
       "/hot-article/:type?": {
         "path": "/hot-article/:type?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/hot-article",
@@ -39359,8 +39341,7 @@
       "/live": {
         "path": "/live",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/live",
@@ -43665,8 +43646,7 @@
       "/miit/zcjd": {
         "path": "/miit/zcjd",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/miit/zcjd",
         "parameters": {},
@@ -44790,8 +44770,7 @@
           "nczitzk"
         ],
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "radar": [
           {
@@ -44817,8 +44796,7 @@
         ],
         "example": "/gov/ndrc/zfxxgk",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "features": {
           "requireConfig": false,
@@ -45747,8 +45725,7 @@
         "name": "国家统计局 通用",
         "url": "www.stats.gov.cn",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "maintainers": [
           "bigfei",
@@ -46066,8 +46043,7 @@
           "/zhengce/:category{.+}?"
         ],
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/zhengce/zuixin",
         "parameters": {},
@@ -46102,8 +46078,7 @@
           "/zhengce/:category{.+}?"
         ],
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/zhengce/zuixin",
         "parameters": {},
@@ -46168,8 +46143,7 @@
       "/zhengce/zhengceku/:department": {
         "path": "/zhengce/zhengceku/:department",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "example": "/gov/zhengce/zhengceku/bmwj",
         "parameters": {
@@ -51000,8 +50974,7 @@
       "/blog-zh": {
         "path": "/blog-zh",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/huggingface/blog-zh",
         "parameters": {},
@@ -52565,8 +52538,7 @@
       "/moment": {
         "path": "/moment",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/huxiu/moment",
         "parameters": {},
@@ -53862,8 +53834,7 @@
       "/chart/:chart?": {
         "path": "/chart/:chart?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 5,
         "parameters": {
@@ -54240,8 +54211,7 @@
       "/recommend": {
         "path": "/recommend",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/infoq/recommend",
         "parameters": {},
@@ -56121,8 +56091,7 @@
       "/rankings/:category?/:time?": {
         "path": "/rankings/:category?/:time?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/javdb/rankings",
         "parameters": {
@@ -56287,8 +56256,7 @@
       "/video_codes/:code/:filter?": {
         "path": "/video_codes/:code/:filter?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "example": "/javdb/video_codes/SIVR",
         "parameters": {
@@ -57229,8 +57197,7 @@
       "/:important?": {
         "path": "/:important?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 5,
         "example": "/jin10",
@@ -58456,8 +58423,7 @@
       "/tab/:tab?": {
         "path": "/tab/:tab?",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "example": "/jpxgmn/tab",
         "parameters": {
@@ -58919,8 +58885,7 @@
       "/dynamic/:id": {
         "path": "/dynamic/:id",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/juejin/dynamic/3051900006845944",
         "parameters": {
@@ -58977,8 +58942,7 @@
       "/posts/:id": {
         "path": "/posts/:id",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/juejin/posts/3051900006845944",
         "parameters": {
@@ -59632,8 +59596,7 @@
       "/:source?/:id?/:type?": {
         "path": "/:source?/:id?/:type?",
         "categories": [
-          "anime",
-          "popular"
+          "anime"
         ],
         "example": "/kemono",
         "parameters": {
@@ -64563,8 +64526,7 @@
       "/cn/:category?": {
         "path": "/cn/:category?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/mckinsey/cn",
@@ -68460,8 +68422,7 @@
       "/:type?": {
         "path": "/:type?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/mittrchina/index",
         "parameters": {
@@ -69824,8 +69785,7 @@
       "/dailyphoto": {
         "path": "/dailyphoto",
         "categories": [
-          "picture",
-          "popular"
+          "picture"
         ],
         "view": 2,
         "example": "/natgeo/dailyphoto",
@@ -71473,8 +71433,7 @@
       "/:category": {
         "path": "/:category",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/newyorker/latest",
@@ -71954,7 +71913,8 @@
       "/cat/:cat": {
         "path": "/cat/:cat",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/niaogebiji/cat/103",
         "parameters": {
@@ -72005,7 +71965,8 @@
       "/today": {
         "path": "/today",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/niaogebiji/today",
         "parameters": {},
@@ -72069,7 +72030,8 @@
     "name": "Niconico",
     "url": "www.nicovideo.jp",
     "categories": [
-      "multimedia"
+      "multimedia",
+      "popular"
     ],
     "lang": "ja"
   },
@@ -72078,7 +72040,8 @@
       "/blog": {
         "path": "/blog",
         "categories": [
-          "blog"
+          "blog",
+          "popular"
         ],
         "example": "/nielsberglund/blog",
         "radar": [
@@ -72108,7 +72071,8 @@
       "/research/:categoryGuid?": {
         "path": "/research/:categoryGuid?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/nifd/research/3333d2af-91d6-429b-be83-28b92f31b6d7",
         "parameters": {
@@ -72151,7 +72115,8 @@
       "/news/:category/:article_type?": {
         "path": "/news/:category/:article_type?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/nikkei/news/news",
         "parameters": {
@@ -72179,7 +72144,8 @@
       "/asia": {
         "path": "/asia",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/nikkei/asia",
         "radar": [
@@ -72237,7 +72203,8 @@
       "/direct": {
         "path": "/direct",
         "categories": [
-          "game"
+          "game",
+          "popular"
         ],
         "example": "/nintendo/direct",
         "parameters": {},
@@ -72332,7 +72299,8 @@
       "/news/china": {
         "path": "/news/china",
         "categories": [
-          "game"
+          "game",
+          "popular"
         ],
         "example": "/nintendo/news/china",
         "parameters": {},
@@ -72362,7 +72330,8 @@
       "/news": {
         "path": "/news",
         "categories": [
-          "game"
+          "game",
+          "popular"
         ],
         "example": "/nintendo/news",
         "parameters": {},
@@ -72393,7 +72362,8 @@
       "/system-update": {
         "path": "/system-update",
         "categories": [
-          "game"
+          "game",
+          "popular"
         ],
         "example": "/nintendo/system-update",
         "parameters": {},
@@ -72432,7 +72402,8 @@
       "/:category?": {
         "path": "/:category?",
         "categories": [
-          "travel"
+          "travel",
+          "popular"
         ],
         "example": "/nippon/Politics",
         "parameters": {
@@ -72631,7 +72602,8 @@
       "/admission": {
         "path": "/admission",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/admission",
         "parameters": {},
@@ -72663,7 +72635,8 @@
       "/dafls": {
         "path": "/dafls",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/dafls",
         "parameters": {},
@@ -72717,7 +72690,8 @@
       "/gra": {
         "path": "/gra",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/gra",
         "parameters": {},
@@ -72748,7 +72722,8 @@
       "/hospital": {
         "path": "/hospital",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/hospital",
         "parameters": {},
@@ -72808,7 +72783,8 @@
       "/itsc": {
         "path": "/itsc",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/itsc",
         "parameters": {},
@@ -72869,7 +72845,8 @@
       "/jw/:type": {
         "path": "/jw/:type",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/jw/ggtz",
         "parameters": {
@@ -72901,7 +72878,8 @@
       "/rczp/:type": {
         "path": "/rczp/:type",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/rczp/xxfb",
         "parameters": {
@@ -72933,7 +72911,8 @@
       "/scit/:type": {
         "path": "/scit/:type",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/scit/tzgg",
         "parameters": {
@@ -72958,7 +72937,8 @@
       "/zbb/:type": {
         "path": "/zbb/:type",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/zbb/cgxx",
         "parameters": {
@@ -72983,7 +72963,8 @@
       "/zcc": {
         "path": "/zcc",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nju/zcc",
         "parameters": {},
@@ -73229,7 +73210,8 @@
       "/gs/:type?": {
         "path": "/gs/:type?",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/njust/gs/sytzgg_4568",
         "parameters": {
@@ -73399,7 +73381,8 @@
       "/news/:category?": {
         "path": "/news/:category?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/nltimes/news/top-stories",
         "parameters": {
@@ -73439,7 +73422,8 @@
       "/weatheralarm/:province?": {
         "path": "/weatheralarm/:province?",
         "categories": [
-          "forecast"
+          "forecast",
+          "popular"
         ],
         "example": "/nmc/weatheralarm/广东省",
         "parameters": {
@@ -73513,7 +73497,8 @@
       "/blog/:language?": {
         "path": "/blog/:language?",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/nodejs/blog",
         "parameters": {
@@ -73554,7 +73539,8 @@
       "/blog/:id?": {
         "path": "/blog/:id?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/nogizaka46/blog",
         "parameters": {
@@ -73589,7 +73575,8 @@
       "/news": {
         "path": "/news",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/nogizaka46/news",
         "parameters": {},
@@ -73628,7 +73615,8 @@
       "/:keykind?": {
         "path": "/:keykind?",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/nosec/hole",
         "parameters": {
@@ -73661,7 +73649,8 @@
       "/ota": {
         "path": "/ota",
         "categories": [
-          "program-update"
+          "program-update",
+          "popular"
         ],
         "example": "/notateslaapp/ota",
         "parameters": {},
@@ -73700,7 +73689,8 @@
       "/search/:category?/:order?/:time?/:query?": {
         "path": "/search/:category?/:order?/:time?/:query?",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
         "view": 2,
         "example": "/notefolio/search/1/pick/all/life",
@@ -73884,7 +73874,8 @@
         "url": "notion.so/releases",
         "example": "/notion/release",
         "categories": [
-          "program-update"
+          "program-update",
+          "popular"
         ],
         "maintainers": [
           "equt"
@@ -73912,7 +73903,8 @@
       "/news/:category?/:id?": {
         "path": "/news/:category?/:id?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/now/news",
         "parameters": {
@@ -73955,7 +73947,8 @@
       "/discuss/:type/:order": {
         "path": "/discuss/:type/:order",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/nowcoder/discuss/2/4",
         "parameters": {
@@ -73981,7 +73974,8 @@
       "/experience/:tagId": {
         "path": "/experience/:tagId",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/nowcoder/experience/639?order=3&companyId=665&phaseId=0",
         "parameters": {
@@ -74053,7 +74047,8 @@
       "/recommend": {
         "path": "/recommend",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/nowcoder/recommend",
         "parameters": {},
@@ -74083,7 +74078,8 @@
       "/schedule/:propertyId?/:typeId?": {
         "path": "/schedule/:propertyId?/:typeId?",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/nowcoder/schedule",
         "parameters": {
@@ -74129,7 +74125,8 @@
           "Fatpandac"
         ],
         "categories": [
-          "program-update"
+          "program-update",
+          "popular"
         ],
         "example": "/npm/package/rsshub",
         "radar": [
@@ -74152,7 +74149,8 @@
       "/:endpoint?": {
         "path": "/:endpoint?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/npr/1001",
         "parameters": {
@@ -74223,7 +74221,8 @@
       "/:language/:id": {
         "path": "/:language/:id",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/ntdtv/b5/prog1201",
         "parameters": {
@@ -74360,7 +74359,8 @@
       "/lib/:type": {
         "path": "/lib/:type",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nua/lib/xwdt",
         "parameters": {
@@ -74534,7 +74534,8 @@
       "/yjszs/:keyId?": {
         "path": "/yjszs/:keyId?",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nudt/yjszs/2",
         "parameters": {
@@ -74574,7 +74575,8 @@
       "/bulletin/:category?": {
         "path": "/bulletin/:category?",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nuist/bulletin/791",
         "parameters": {
@@ -74632,7 +74634,8 @@
       "/jwc/:category?": {
         "path": "/jwc/:category?",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nuist/jwc/jxyw",
         "parameters": {
@@ -74715,7 +74718,8 @@
       "/xgc": {
         "path": "/xgc",
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "example": "/nuist/xgc",
         "parameters": {},
@@ -74817,7 +74821,8 @@
           "PrinOrange"
         ],
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -74847,7 +74852,8 @@
           "PrinOrange"
         ],
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -74878,7 +74884,8 @@
           "PrinOrange"
         ],
         "categories": [
-          "university"
+          "university",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -74919,7 +74926,11 @@
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular",
+          "popular",
+          "popular",
+          "popular"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -74952,7 +74963,11 @@
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular",
+          "popular",
+          "popular",
+          "popular"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -74985,7 +75000,11 @@
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular",
+          "popular",
+          "popular",
+          "popular"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75018,7 +75037,11 @@
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular",
+          "popular",
+          "popular",
+          "popular"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75051,7 +75074,11 @@
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular",
+          "popular",
+          "popular",
+          "popular"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75084,7 +75111,11 @@
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular",
+          "popular",
+          "popular",
+          "popular"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75119,7 +75150,8 @@
       "/censorbib": {
         "path": "/censorbib",
         "categories": [
-          "journal"
+          "journal",
+          "popular"
         ],
         "example": "/nymity/censorbib",
         "radar": [
@@ -75148,7 +75180,8 @@
       "/book/:category?": {
         "path": "/book/:category?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "view": 5,
         "example": "/nytimes/book/combined-print-and-e-book-nonfiction",
@@ -75232,7 +75265,8 @@
       "/daily_briefing_chinese": {
         "path": "/daily_briefing_chinese",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/nytimes/daily_briefing_chinese",
         "parameters": {},
@@ -75322,7 +75356,8 @@
       "/rss/:cat?": {
         "path": "/rss/:cat?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "view": 0,
         "example": "/nytimes/rss/HomePage",
@@ -75383,7 +75418,8 @@
       "/publish/:id": {
         "path": "/publish/:id",
         "categories": [
-          "blog"
+          "blog",
+          "popular"
         ],
         "example": "/obsidian/publish/marshallontheroad",
         "parameters": {
@@ -75479,7 +75515,8 @@
       "/activity": {
         "path": "/activity",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/odaily/activity",
         "parameters": {},
@@ -75510,7 +75547,8 @@
       "/newsflash": {
         "path": "/newsflash",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/odaily/newsflash",
         "parameters": {},
@@ -75541,7 +75579,8 @@
       "/:id?": {
         "path": "/:id?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/odaily",
         "parameters": {
@@ -75574,7 +75613,8 @@
       "/search/news/:keyword": {
         "path": "/search/news/:keyword",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/odaily/search/news/RSS3",
         "parameters": {
@@ -80273,8 +80313,7 @@
       "/search/:keyword/:order?/:mode?/:include_ai?": {
         "path": "/search/:keyword/:order?/:mode?/:include_ai?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 2,
         "example": "/pixiv/search/Nezuko/popular",
@@ -80850,8 +80889,7 @@
       "/av/:catid?": {
         "path": "/av/:catid?",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/playno1/av",
         "parameters": {
@@ -81286,8 +81324,7 @@
       "/model/:username/:language?/:sort?": {
         "path": "/model/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/model/stacy-starando",
@@ -81323,8 +81360,7 @@
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
@@ -86320,8 +86356,7 @@
       "/blog/:type?/:time?/:sort?": {
         "path": "/blog/:type?/:time?/:sort?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/sciencenet/blog",
         "parameters": {
@@ -89986,8 +90021,7 @@
       "/forum/:id?": {
         "path": "/forum/:id?",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/sis001/forum/322",
         "parameters": {
@@ -90938,8 +90972,7 @@
       "/haowen/:day?": {
         "path": "/haowen/:day?",
         "categories": [
-          "shopping",
-          "popular"
+          "shopping"
         ],
         "example": "/smzdm/haowen/1",
         "parameters": {
@@ -91530,8 +91563,7 @@
       "/:type?": {
         "path": "/:type?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/solidot/linux",
@@ -92153,8 +92185,7 @@
       "/show/:id": {
         "path": "/show/:id",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 4,
         "example": "/spotify/show/5CfCWKI5pZ28U0uOzXkDHe",
@@ -93017,8 +93048,7 @@
       "/matrix": {
         "path": "/matrix",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/sspai/matrix",
         "parameters": {},
@@ -100161,8 +100191,7 @@
       "/:category": {
         "path": "/:category",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/theatlantic/latest",
         "parameters": {
@@ -100423,8 +100452,7 @@
       "/app/:category?": {
         "path": "/app/:category?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/theinitium/app",
         "parameters": {
@@ -105948,8 +105976,7 @@
       "/tab/:tabid": {
         "path": "/tab/:tabid",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "view": 0,
         "example": "/v2ex/tab/hot",
@@ -110226,8 +110253,7 @@
       "/:label?": {
         "path": "/:label?",
         "categories": [
-          "reading",
-          "popular"
+          "reading"
         ],
         "example": "/xbookcn/精选作品",
         "parameters": {
@@ -111502,8 +111528,7 @@
       "/forum/:fid": {
         "path": "/forum/:fid",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/xsijishe/forum/51",
         "parameters": {
@@ -111904,8 +111929,7 @@
       "/user/:id/:type?": {
         "path": "/user/:id/:type?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "example": "/xueqiu/user/8152922548",
         "parameters": {
@@ -113370,8 +113394,7 @@
       "/playlist/:id/:embed?": {
         "path": "/playlist/:id/:embed?",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/youtube/playlist/PLqQ1RwlxOgeLTJ1f3fNMSwhjVgaWKo_9Z",
@@ -113909,8 +113932,7 @@
       "/article/:type?": {
         "path": "/article/:type?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 0,
         "example": "/yyets/article",
@@ -114275,8 +114297,7 @@
       "/znews/:section?": {
         "path": "/znews/:section?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/zaobao/znews/china",
         "parameters": {
@@ -114439,8 +114460,7 @@
       "/top/:type": {
         "path": "/top/:type",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/zcool/top/design",
@@ -114477,8 +114497,7 @@
       "/user/:uid": {
         "path": "/user/:uid",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/zcool/user/baiyong",
@@ -114904,8 +114923,7 @@
       "/posts/:usertype/:id": {
         "path": "/posts/:usertype/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/zhihu/posts/people/frederchen",
         "parameters": {
@@ -115067,8 +115085,7 @@
       "/zhuanlan/:id": {
         "path": "/zhuanlan/:id",
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "example": "/zhihu/zhuanlan/googledevelopers",
         "parameters": {
