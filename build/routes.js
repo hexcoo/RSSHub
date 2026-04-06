@@ -279,7 +279,8 @@ export default {
       "/music/djradio/:id/:info?": {
         "path": "/music/djradio/:id/:info?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "example": "/163/music/djradio/347317067",
         "parameters": {
@@ -948,7 +949,8 @@ export default {
         },
         "description": "::: tip\n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 标签。将 `公告` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告`](https://rsshub.app/10jqka/realtimenews/公告)。\n  \n  若订阅 [7×24小时要闻直播](https://news.10jqka.com.cn/realtimenews.html) 的 `公告` 和 `A股` 标签。将 `公告,A股` 作为标签参数填入，此时路由为 [`/10jqka/realtimenews/公告,A股`](https://rsshub.app/10jqka/realtimenews/公告,A股)。\n:::\n\n| 全部 | 重要 | A股 | 港股 | 美股 | 机会 | 异动 | 公告 |\n| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |\n    ",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -3070,7 +3072,8 @@ export default {
       "/:category/:subCategory?/:keyword?": {
         "path": "/:category/:subCategory?/:keyword?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/36kr/newsflashes",
         "parameters": {
@@ -6841,7 +6844,8 @@ export default {
         "example": "/aibase/news",
         "description": "获取 AI 资讯列表",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -7723,7 +7727,8 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/ainvest/news",
         "parameters": {},
@@ -7899,7 +7904,8 @@ export default {
       "/column/:id": {
         "path": "/column/:id",
         "categories": [
-          "reading"
+          "reading",
+          "popular"
         ],
         "example": "/aisixiang/column/722",
         "parameters": {
@@ -9328,7 +9334,8 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/anthropic/news",
         "parameters": {},
@@ -10045,7 +10052,8 @@ export default {
       "/apps/update/:country/:id/:platform?": {
         "path": "/apps/update/:country/:id/:platform?",
         "categories": [
-          "program-update"
+          "program-update",
+          "popular"
         ],
         "view": 5,
         "example": "/apple/apps/update/us/id408709785",
@@ -13260,7 +13268,8 @@ export default {
           "channel": "channel, default to `top stories`"
         },
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "description": "Provides a better reading experience (full text articles) over the official ones.\n\n    Support major channels, refer to [BBC RSS feeds](https://www.bbc.co.uk/news/10628494). Eg, `business` for `https://feeds.bbci.co.uk/news/business/rss.xml`.\n\n    -   Channel contains sub-directories, such as `https://feeds.bbci.co.uk/news/world/asia/rss.xml`, replace `/` with `-`, `/bbc/world-asia`.",
         "location": "index.ts",
@@ -13403,7 +13412,8 @@ export default {
       "/:user/:type?": {
         "path": "/:user/:type?",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
         "view": 2,
         "example": "/behance/mishapetrick",
@@ -14632,8 +14642,7 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/bilibili/ranking/0",
@@ -23736,7 +23745,8 @@ export default {
       "/telegraph/:category?": {
         "path": "/telegraph/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/cls/telegraph",
         "parameters": {
@@ -24440,7 +24450,8 @@ export default {
       "/weekly": {
         "path": "/weekly",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
         "view": 0,
         "example": "/cngal/weekly",
@@ -26560,7 +26571,8 @@ export default {
       "/blog/:user": {
         "path": "/blog/:user",
         "categories": [
-          "blog"
+          "blog",
+          "popular"
         ],
         "example": "/csdn/blog/csdngeeknews",
         "parameters": {
@@ -29096,7 +29108,8 @@ export default {
       "/blog": {
         "path": "/blog",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/deepmind/blog",
         "parameters": {},
@@ -31382,7 +31395,8 @@ export default {
       "/list/:type?/:routeParams?": {
         "path": "/list/:type?/:routeParams?",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "example": "/douban/list/subject_real_time_hotest",
         "parameters": {
@@ -33246,7 +33260,8 @@ export default {
       "/espresso": {
         "path": "/espresso",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "view": 0,
         "example": "/economist/espresso",
@@ -37965,7 +37980,8 @@ export default {
       "/gnn/:category?": {
         "path": "/gnn/:category?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
         "view": 0,
         "example": "/gamer/gnn/1",
@@ -39066,7 +39082,8 @@ export default {
         },
         "description": "::: tip\n  若订阅 [综合报道](https://www.geekpark.net/column/179)，网址为 `https://www.geekpark.net/column/179`。截取 `https://www.geekpark.net/column/` 到末尾的部分 `179` 作为参数填入，此时路由为 [`/geekpark/179`](https://rsshub.app/geekpark/179)。\n:::\n\n| 栏目                                                         | ID                                     |\n| ------------------------------------------------------------ | -------------------------------------- |\n| [综合报道](https://www.geekpark.net/column/179)              | [179](https://rsshub.app/geekpark/179) |\n| [AI新浪潮观察](https://www.geekpark.net/column/304)          | [304](https://rsshub.app/geekpark/304) |\n| [新造车观察](https://www.geekpark.net/column/305)            | [305](https://rsshub.app/geekpark/305) |\n| [财报解读](https://www.geekpark.net/column/271)              | [271](https://rsshub.app/geekpark/271) |\n| [底稿对话CEO系列](https://www.geekpark.net/column/308)       | [308](https://rsshub.app/geekpark/308) |\n| [Geek Insight 特稿系列](https://www.geekpark.net/column/306) | [306](https://rsshub.app/geekpark/306) |\n| [心科技](https://www.geekpark.net/column/307)                | [307](https://rsshub.app/geekpark/307) |\n| [行业资讯](https://www.geekpark.net/column/2)                | [2](https://rsshub.app/geekpark/2)     |\n  ",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -39270,7 +39287,8 @@ export default {
       "/hot-article/:type?": {
         "path": "/hot-article/:type?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "view": 0,
         "example": "/gelonghui/hot-article",
@@ -39341,7 +39359,8 @@ export default {
       "/live": {
         "path": "/live",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "view": 0,
         "example": "/gelonghui/live",
@@ -43646,7 +43665,8 @@ export default {
       "/miit/zcjd": {
         "path": "/miit/zcjd",
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/miit/zcjd",
         "parameters": {},
@@ -44770,7 +44790,8 @@ export default {
           "nczitzk"
         ],
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "radar": [
           {
@@ -44796,7 +44817,8 @@ export default {
         ],
         "example": "/gov/ndrc/zfxxgk",
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "features": {
           "requireConfig": false,
@@ -45725,7 +45747,8 @@ export default {
         "name": "国家统计局 通用",
         "url": "www.stats.gov.cn",
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "maintainers": [
           "bigfei",
@@ -46043,7 +46066,8 @@ export default {
           "/zhengce/:category{.+}?"
         ],
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/zhengce/zuixin",
         "parameters": {},
@@ -46078,7 +46102,8 @@ export default {
           "/zhengce/:category{.+}?"
         ],
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/zhengce/zuixin",
         "parameters": {},
@@ -46143,7 +46168,8 @@ export default {
       "/zhengce/zhengceku/:department": {
         "path": "/zhengce/zhengceku/:department",
         "categories": [
-          "government"
+          "government",
+          "popular"
         ],
         "example": "/gov/zhengce/zhengceku/bmwj",
         "parameters": {
@@ -50974,7 +51000,8 @@ export default {
       "/blog-zh": {
         "path": "/blog-zh",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/huggingface/blog-zh",
         "parameters": {},
@@ -52538,7 +52565,8 @@ export default {
       "/moment": {
         "path": "/moment",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/huxiu/moment",
         "parameters": {},
@@ -53834,7 +53862,8 @@ export default {
       "/chart/:chart?": {
         "path": "/chart/:chart?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 5,
         "parameters": {
@@ -54211,7 +54240,8 @@ export default {
       "/recommend": {
         "path": "/recommend",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/infoq/recommend",
         "parameters": {},
@@ -56091,7 +56121,8 @@ export default {
       "/rankings/:category?/:time?": {
         "path": "/rankings/:category?/:time?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "example": "/javdb/rankings",
         "parameters": {
@@ -56256,7 +56287,8 @@ export default {
       "/video_codes/:code/:filter?": {
         "path": "/video_codes/:code/:filter?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "example": "/javdb/video_codes/SIVR",
         "parameters": {
@@ -57197,7 +57229,8 @@ export default {
       "/:important?": {
         "path": "/:important?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "view": 5,
         "example": "/jin10",
@@ -58423,7 +58456,8 @@ export default {
       "/tab/:tab?": {
         "path": "/tab/:tab?",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "example": "/jpxgmn/tab",
         "parameters": {
@@ -58885,7 +58919,8 @@ export default {
       "/dynamic/:id": {
         "path": "/dynamic/:id",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/juejin/dynamic/3051900006845944",
         "parameters": {
@@ -58942,7 +58977,8 @@ export default {
       "/posts/:id": {
         "path": "/posts/:id",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/juejin/posts/3051900006845944",
         "parameters": {
@@ -59596,7 +59632,8 @@ export default {
       "/:source?/:id?/:type?": {
         "path": "/:source?/:id?/:type?",
         "categories": [
-          "anime"
+          "anime",
+          "popular"
         ],
         "example": "/kemono",
         "parameters": {
@@ -64526,7 +64563,8 @@ export default {
       "/cn/:category?": {
         "path": "/cn/:category?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "view": 0,
         "example": "/mckinsey/cn",
@@ -68422,7 +68460,8 @@ export default {
       "/:type?": {
         "path": "/:type?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/mittrchina/index",
         "parameters": {
@@ -69785,7 +69824,8 @@ export default {
       "/dailyphoto": {
         "path": "/dailyphoto",
         "categories": [
-          "picture"
+          "picture",
+          "popular"
         ],
         "view": 2,
         "example": "/natgeo/dailyphoto",
@@ -71433,7 +71473,8 @@ export default {
       "/:category": {
         "path": "/:category",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "view": 0,
         "example": "/newyorker/latest",
@@ -71913,8 +71954,7 @@ export default {
       "/cat/:cat": {
         "path": "/cat/:cat",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/niaogebiji/cat/103",
         "parameters": {
@@ -71965,8 +72005,7 @@ export default {
       "/today": {
         "path": "/today",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/niaogebiji/today",
         "parameters": {},
@@ -72030,8 +72069,7 @@ export default {
     "name": "Niconico",
     "url": "www.nicovideo.jp",
     "categories": [
-      "multimedia",
-      "popular"
+      "multimedia"
     ],
     "lang": "ja"
   },
@@ -72040,8 +72078,7 @@ export default {
       "/blog": {
         "path": "/blog",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/nielsberglund/blog",
         "radar": [
@@ -72071,8 +72108,7 @@ export default {
       "/research/:categoryGuid?": {
         "path": "/research/:categoryGuid?",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "example": "/nifd/research/3333d2af-91d6-429b-be83-28b92f31b6d7",
         "parameters": {
@@ -72115,8 +72151,7 @@ export default {
       "/news/:category/:article_type?": {
         "path": "/news/:category/:article_type?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/nikkei/news/news",
         "parameters": {
@@ -72144,8 +72179,7 @@ export default {
       "/asia": {
         "path": "/asia",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/nikkei/asia",
         "radar": [
@@ -72203,8 +72237,7 @@ export default {
       "/direct": {
         "path": "/direct",
         "categories": [
-          "game",
-          "popular"
+          "game"
         ],
         "example": "/nintendo/direct",
         "parameters": {},
@@ -72299,8 +72332,7 @@ export default {
       "/news/china": {
         "path": "/news/china",
         "categories": [
-          "game",
-          "popular"
+          "game"
         ],
         "example": "/nintendo/news/china",
         "parameters": {},
@@ -72330,8 +72362,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "game",
-          "popular"
+          "game"
         ],
         "example": "/nintendo/news",
         "parameters": {},
@@ -72362,8 +72393,7 @@ export default {
       "/system-update": {
         "path": "/system-update",
         "categories": [
-          "game",
-          "popular"
+          "game"
         ],
         "example": "/nintendo/system-update",
         "parameters": {},
@@ -72402,8 +72432,7 @@ export default {
       "/:category?": {
         "path": "/:category?",
         "categories": [
-          "travel",
-          "popular"
+          "travel"
         ],
         "example": "/nippon/Politics",
         "parameters": {
@@ -72602,8 +72631,7 @@ export default {
       "/admission": {
         "path": "/admission",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/admission",
         "parameters": {},
@@ -72635,8 +72663,7 @@ export default {
       "/dafls": {
         "path": "/dafls",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/dafls",
         "parameters": {},
@@ -72690,8 +72717,7 @@ export default {
       "/gra": {
         "path": "/gra",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/gra",
         "parameters": {},
@@ -72722,8 +72748,7 @@ export default {
       "/hospital": {
         "path": "/hospital",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/hospital",
         "parameters": {},
@@ -72783,8 +72808,7 @@ export default {
       "/itsc": {
         "path": "/itsc",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/itsc",
         "parameters": {},
@@ -72845,8 +72869,7 @@ export default {
       "/jw/:type": {
         "path": "/jw/:type",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/jw/ggtz",
         "parameters": {
@@ -72878,8 +72901,7 @@ export default {
       "/rczp/:type": {
         "path": "/rczp/:type",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/rczp/xxfb",
         "parameters": {
@@ -72911,8 +72933,7 @@ export default {
       "/scit/:type": {
         "path": "/scit/:type",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/scit/tzgg",
         "parameters": {
@@ -72937,8 +72958,7 @@ export default {
       "/zbb/:type": {
         "path": "/zbb/:type",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/zbb/cgxx",
         "parameters": {
@@ -72963,8 +72983,7 @@ export default {
       "/zcc": {
         "path": "/zcc",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nju/zcc",
         "parameters": {},
@@ -73210,8 +73229,7 @@ export default {
       "/gs/:type?": {
         "path": "/gs/:type?",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/njust/gs/sytzgg_4568",
         "parameters": {
@@ -73381,8 +73399,7 @@ export default {
       "/news/:category?": {
         "path": "/news/:category?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/nltimes/news/top-stories",
         "parameters": {
@@ -73422,8 +73439,7 @@ export default {
       "/weatheralarm/:province?": {
         "path": "/weatheralarm/:province?",
         "categories": [
-          "forecast",
-          "popular"
+          "forecast"
         ],
         "example": "/nmc/weatheralarm/广东省",
         "parameters": {
@@ -73497,8 +73513,7 @@ export default {
       "/blog/:language?": {
         "path": "/blog/:language?",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/nodejs/blog",
         "parameters": {
@@ -73539,8 +73554,7 @@ export default {
       "/blog/:id?": {
         "path": "/blog/:id?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/nogizaka46/blog",
         "parameters": {
@@ -73575,8 +73589,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/nogizaka46/news",
         "parameters": {},
@@ -73615,8 +73628,7 @@ export default {
       "/:keykind?": {
         "path": "/:keykind?",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/nosec/hole",
         "parameters": {
@@ -73649,8 +73661,7 @@ export default {
       "/ota": {
         "path": "/ota",
         "categories": [
-          "program-update",
-          "popular"
+          "program-update"
         ],
         "example": "/notateslaapp/ota",
         "parameters": {},
@@ -73689,8 +73700,7 @@ export default {
       "/search/:category?/:order?/:time?/:query?": {
         "path": "/search/:category?/:order?/:time?/:query?",
         "categories": [
-          "design",
-          "popular"
+          "design"
         ],
         "view": 2,
         "example": "/notefolio/search/1/pick/all/life",
@@ -73874,8 +73884,7 @@ export default {
         "url": "notion.so/releases",
         "example": "/notion/release",
         "categories": [
-          "program-update",
-          "popular"
+          "program-update"
         ],
         "maintainers": [
           "equt"
@@ -73903,8 +73912,7 @@ export default {
       "/news/:category?/:id?": {
         "path": "/news/:category?/:id?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/now/news",
         "parameters": {
@@ -73947,8 +73955,7 @@ export default {
       "/discuss/:type/:order": {
         "path": "/discuss/:type/:order",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/nowcoder/discuss/2/4",
         "parameters": {
@@ -73974,8 +73981,7 @@ export default {
       "/experience/:tagId": {
         "path": "/experience/:tagId",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/nowcoder/experience/639?order=3&companyId=665&phaseId=0",
         "parameters": {
@@ -74047,8 +74053,7 @@ export default {
       "/recommend": {
         "path": "/recommend",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/nowcoder/recommend",
         "parameters": {},
@@ -74078,8 +74083,7 @@ export default {
       "/schedule/:propertyId?/:typeId?": {
         "path": "/schedule/:propertyId?/:typeId?",
         "categories": [
-          "bbs",
-          "popular"
+          "bbs"
         ],
         "example": "/nowcoder/schedule",
         "parameters": {
@@ -74125,8 +74129,7 @@ export default {
           "Fatpandac"
         ],
         "categories": [
-          "program-update",
-          "popular"
+          "program-update"
         ],
         "example": "/npm/package/rsshub",
         "radar": [
@@ -74149,8 +74152,7 @@ export default {
       "/:endpoint?": {
         "path": "/:endpoint?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/npr/1001",
         "parameters": {
@@ -74221,8 +74223,7 @@ export default {
       "/:language/:id": {
         "path": "/:language/:id",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/ntdtv/b5/prog1201",
         "parameters": {
@@ -74359,8 +74360,7 @@ export default {
       "/lib/:type": {
         "path": "/lib/:type",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nua/lib/xwdt",
         "parameters": {
@@ -74534,8 +74534,7 @@ export default {
       "/yjszs/:keyId?": {
         "path": "/yjszs/:keyId?",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nudt/yjszs/2",
         "parameters": {
@@ -74575,8 +74574,7 @@ export default {
       "/bulletin/:category?": {
         "path": "/bulletin/:category?",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nuist/bulletin/791",
         "parameters": {
@@ -74634,8 +74632,7 @@ export default {
       "/jwc/:category?": {
         "path": "/jwc/:category?",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nuist/jwc/jxyw",
         "parameters": {
@@ -74718,8 +74715,7 @@ export default {
       "/xgc": {
         "path": "/xgc",
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "example": "/nuist/xgc",
         "parameters": {},
@@ -74821,8 +74817,7 @@ export default {
           "PrinOrange"
         ],
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "features": {
           "requireConfig": false,
@@ -74852,8 +74847,7 @@ export default {
           "PrinOrange"
         ],
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "features": {
           "requireConfig": false,
@@ -74884,8 +74878,7 @@ export default {
           "PrinOrange"
         ],
         "categories": [
-          "university",
-          "popular"
+          "university"
         ],
         "features": {
           "requireConfig": false,
@@ -74926,11 +74919,7 @@ export default {
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia",
-          "popular",
-          "popular",
-          "popular",
-          "popular"
+          "multimedia"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -74963,11 +74952,7 @@ export default {
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia",
-          "popular",
-          "popular",
-          "popular",
-          "popular"
+          "multimedia"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75000,11 +74985,7 @@ export default {
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia",
-          "popular",
-          "popular",
-          "popular",
-          "popular"
+          "multimedia"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75037,11 +75018,7 @@ export default {
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia",
-          "popular",
-          "popular",
-          "popular",
-          "popular"
+          "multimedia"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75074,11 +75051,7 @@ export default {
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia",
-          "popular",
-          "popular",
-          "popular",
-          "popular"
+          "multimedia"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75111,11 +75084,7 @@ export default {
           "/sukebei/user/:username/search/:query?"
         ],
         "categories": [
-          "multimedia",
-          "popular",
-          "popular",
-          "popular",
-          "popular"
+          "multimedia"
         ],
         "example": "/nyaa/search/psycho-pass",
         "parameters": {
@@ -75150,8 +75119,7 @@ export default {
       "/censorbib": {
         "path": "/censorbib",
         "categories": [
-          "journal",
-          "popular"
+          "journal"
         ],
         "example": "/nymity/censorbib",
         "radar": [
@@ -75180,8 +75148,7 @@ export default {
       "/book/:category?": {
         "path": "/book/:category?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 5,
         "example": "/nytimes/book/combined-print-and-e-book-nonfiction",
@@ -75265,8 +75232,7 @@ export default {
       "/daily_briefing_chinese": {
         "path": "/daily_briefing_chinese",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "example": "/nytimes/daily_briefing_chinese",
         "parameters": {},
@@ -75356,8 +75322,7 @@ export default {
       "/rss/:cat?": {
         "path": "/rss/:cat?",
         "categories": [
-          "traditional-media",
-          "popular"
+          "traditional-media"
         ],
         "view": 0,
         "example": "/nytimes/rss/HomePage",
@@ -75418,8 +75383,7 @@ export default {
       "/publish/:id": {
         "path": "/publish/:id",
         "categories": [
-          "blog",
-          "popular"
+          "blog"
         ],
         "example": "/obsidian/publish/marshallontheroad",
         "parameters": {
@@ -75515,8 +75479,7 @@ export default {
       "/activity": {
         "path": "/activity",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/odaily/activity",
         "parameters": {},
@@ -75547,8 +75510,7 @@ export default {
       "/newsflash": {
         "path": "/newsflash",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/odaily/newsflash",
         "parameters": {},
@@ -75579,8 +75541,7 @@ export default {
       "/:id?": {
         "path": "/:id?",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/odaily",
         "parameters": {
@@ -75613,8 +75574,7 @@ export default {
       "/search/news/:keyword": {
         "path": "/search/news/:keyword",
         "categories": [
-          "new-media",
-          "popular"
+          "new-media"
         ],
         "example": "/odaily/search/news/RSS3",
         "parameters": {
@@ -80313,7 +80273,8 @@ export default {
       "/search/:keyword/:order?/:mode?/:include_ai?": {
         "path": "/search/:keyword/:order?/:mode?/:include_ai?",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "view": 2,
         "example": "/pixiv/search/Nezuko/popular",
@@ -80889,7 +80850,8 @@ export default {
       "/av/:catid?": {
         "path": "/av/:catid?",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/playno1/av",
         "parameters": {
@@ -81324,7 +81286,8 @@ export default {
       "/model/:username/:language?/:sort?": {
         "path": "/model/:username/:language?/:sort?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 3,
         "example": "/pornhub/model/stacy-starando",
@@ -86356,7 +86319,8 @@ export default {
       "/blog/:type?/:time?/:sort?": {
         "path": "/blog/:type?/:time?/:sort?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/sciencenet/blog",
         "parameters": {
@@ -90021,7 +89985,8 @@ export default {
       "/forum/:id?": {
         "path": "/forum/:id?",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/sis001/forum/322",
         "parameters": {
@@ -90972,7 +90937,8 @@ export default {
       "/haowen/:day?": {
         "path": "/haowen/:day?",
         "categories": [
-          "shopping"
+          "shopping",
+          "popular"
         ],
         "example": "/smzdm/haowen/1",
         "parameters": {
@@ -91563,7 +91529,8 @@ export default {
       "/:type?": {
         "path": "/:type?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "view": 0,
         "example": "/solidot/linux",
@@ -92185,7 +92152,8 @@ export default {
       "/show/:id": {
         "path": "/show/:id",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 4,
         "example": "/spotify/show/5CfCWKI5pZ28U0uOzXkDHe",
@@ -93048,7 +93016,8 @@ export default {
       "/matrix": {
         "path": "/matrix",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/sspai/matrix",
         "parameters": {},
@@ -100191,7 +100160,8 @@ export default {
       "/:category": {
         "path": "/:category",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/theatlantic/latest",
         "parameters": {
@@ -100452,7 +100422,8 @@ export default {
       "/app/:category?": {
         "path": "/app/:category?",
         "categories": [
-          "new-media"
+          "new-media",
+          "popular"
         ],
         "example": "/theinitium/app",
         "parameters": {
@@ -105976,7 +105947,8 @@ export default {
       "/tab/:tabid": {
         "path": "/tab/:tabid",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "view": 0,
         "example": "/v2ex/tab/hot",
@@ -110253,7 +110225,8 @@ export default {
       "/:label?": {
         "path": "/:label?",
         "categories": [
-          "reading"
+          "reading",
+          "popular"
         ],
         "example": "/xbookcn/精选作品",
         "parameters": {
@@ -111528,7 +111501,8 @@ export default {
       "/forum/:fid": {
         "path": "/forum/:fid",
         "categories": [
-          "bbs"
+          "bbs",
+          "popular"
         ],
         "example": "/xsijishe/forum/51",
         "parameters": {
@@ -111929,7 +111903,8 @@ export default {
       "/user/:id/:type?": {
         "path": "/user/:id/:type?",
         "categories": [
-          "finance"
+          "finance",
+          "popular"
         ],
         "example": "/xueqiu/user/8152922548",
         "parameters": {
@@ -113394,7 +113369,8 @@ export default {
       "/playlist/:id/:embed?": {
         "path": "/playlist/:id/:embed?",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "view": 3,
         "example": "/youtube/playlist/PLqQ1RwlxOgeLTJ1f3fNMSwhjVgaWKo_9Z",
@@ -113932,7 +113908,8 @@ export default {
       "/article/:type?": {
         "path": "/article/:type?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 0,
         "example": "/yyets/article",
@@ -114297,7 +114274,8 @@ export default {
       "/znews/:section?": {
         "path": "/znews/:section?",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "example": "/zaobao/znews/china",
         "parameters": {
@@ -114460,7 +114438,8 @@ export default {
       "/top/:type": {
         "path": "/top/:type",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
         "view": 2,
         "example": "/zcool/top/design",
@@ -114497,7 +114476,8 @@ export default {
       "/user/:uid": {
         "path": "/user/:uid",
         "categories": [
-          "design"
+          "design",
+          "popular"
         ],
         "view": 2,
         "example": "/zcool/user/baiyong",
@@ -114923,7 +114903,8 @@ export default {
       "/posts/:usertype/:id": {
         "path": "/posts/:usertype/:id",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "example": "/zhihu/posts/people/frederchen",
         "parameters": {
@@ -115085,7 +115066,8 @@ export default {
       "/zhuanlan/:id": {
         "path": "/zhuanlan/:id",
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "example": "/zhihu/zhuanlan/googledevelopers",
         "parameters": {
